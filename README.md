@@ -13,5 +13,6 @@ Eventually, we hope to render a scene which has a glass Stanford bunny and glass
 Currently, we are trying to finish the implementation of the refraction object. We are encountering some issues with showing the transparency of the object and oversaturated colors.
 
 Our current progress: 
+
 ![image](glass.png)
 ![image](glass_no_plane.png)
