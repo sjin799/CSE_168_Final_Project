@@ -1,6 +1,26 @@
-# CSE_168_Final_Project
+# CSE_168_Final_Project - Photon Mapping Report
 
-Below is our project proposal, will be updated to formal project report after we finish the implementation. 
+Building off our proposal, we have successfully implemented refraction for our objects by setting the index of refraction to a value greater than 0.0. In our test cases, we used an index of refraction (IOR) of 0.97, which transformed our sphere into a glass object. Additionally, we implemented our KD-Tree and tracing algorithms, and we set up photon mapping, including the insertion of photons for both global and caustic mapping.
+
+The global mapping works mostly fine, although there are some discrepancies in the radiance. Notice the differences in the images below:
+
+![image](one_glass_sphere.png)
+![image](one_glass_sphere_photon.png)
+
+The image on the top demonstrates that refraction works correctly on the glass object. The image below shows our global photon mapping, with an attempt to add soft radiance on top of our direct and indirect illumination.
+
+Here are more examples with two objects and our dragon model:
+
+![image](two_glass_sphere.png)
+![image](two_glass_sphere_photon.png)
+
+![image](dragon.png)
+![image](dragon_photon.png)
+The image on the right of the dragon model demonstrates how we have mapped our global photons on a more complicated object.
+
+These examples illustrate the progress we have made in photon mapping and global illumination. However, there is still room for improvement in accurately capturing radiance, especially in complex scenes. The next steps will involve refining our photon mapping techniques and optimizing our KD-Tree structure to enhance the quality and realism of the rendered images.
+
+
 
 ## CSE 168 Project Proposal - Photon Mapping
 
