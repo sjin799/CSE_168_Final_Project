@@ -7,7 +7,7 @@ The global mapping works mostly fine, although there are some discrepancies in t
 ![image](one_glass_sphere.png)
 ![image](one_glass_sphere_photon.png)
 
-The image on the top demonstrates that refraction works correctly on the glass object. The image below shows our global photon mapping, with an attempt to add soft radiance on top of our direct and indirect illumination.
+The image on the left demonstrates that refraction works correctly on the glass object. The image on the right shows our global photon mapping, with an attempt to add soft radiance on top of our direct and indirect illumination.
 
 Here are more examples with two objects and our dragon model:
 
