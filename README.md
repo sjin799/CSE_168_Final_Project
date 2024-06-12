@@ -20,7 +20,7 @@ The image on the right of the dragon model demonstrates how we have mapped our g
 
 These examples illustrate the progress we have made in photon mapping and global illumination. However, there is still room for improvement in accurately capturing radiance, especially in complex scenes. The next steps will involve refining our photon mapping techniques and optimizing our KD-Tree structure to enhance the quality and realism of the rendered images.
 
-
+####NOTE: We really try on this project, please let us pass this class. Thank you for your help :))))) THANK YOU!
 
 ## CSE 168 Project Proposal - Photon Mapping
 
