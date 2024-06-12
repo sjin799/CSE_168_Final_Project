@@ -38,4 +38,4 @@ Going forward, we still need to develop a data structure and also algorithms to 
 
 
 ## Fixed progress from the proposal: 
-![image](glass_no_plane\copy.png)
+![image](glass_no_plane.png)
