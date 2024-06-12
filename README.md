@@ -15,7 +15,7 @@ Here are more examples with two objects and our dragon model:
 ![image](two_glass_sphere_photon.png)
 
 ![image](dragon.png)
-![image](dragon_photon.png)
+![image](dragon_photons.png)
 The image on the right of the dragon model demonstrates how we have mapped our global photons on a more complicated object.
 
 These examples illustrate the progress we have made in photon mapping and global illumination. However, there is still room for improvement in accurately capturing radiance, especially in complex scenes. The next steps will involve refining our photon mapping techniques and optimizing our KD-Tree structure to enhance the quality and realism of the rendered images.
@@ -37,7 +37,5 @@ Currently, we are trying to finish the implementation of the refraction object. 
 Going forward, we still need to develop a data structure and also algorithms to store the photons into the kd-tree. Each photon will be represented as a an xyz coordinate, and the tree will be build by recursively dividing the photon set based on median values. We need to ensure that the kd-tree is perfectly balanced to optimized rendering speed. 
 
 
-Our current progress: 
-
-![image](glass.png)
+## Fixed progress from the proposal: 
 ![image](glass_no_plane.png)
